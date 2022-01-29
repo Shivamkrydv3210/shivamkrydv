@@ -1,0 +1,144 @@
+{ margin: 0;
+  padding: 0;
+}
+
+header{
+       background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)), url(../tajmahal.png);
+       height: 100vh;
+       background-size: cover;
+       background-position: center;
+       backgroud-reapeat: no repeat;
+       animation:slider 40s infinite linear;
+       
+       
+}
+@keyframes slider{
+0%{background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), url(../nick-perez-duvq92-VCZ4-unsplash.jpg); 
+bakkground-size: cover;
+
+}
+20%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../chor-tsang-07mSKrzKiRw-unsplash.jpg);}
+
+40%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../yousef-espanioly-DA_tplYgTow-unsplash.jpg);}
+60%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../ashim-d-silva-WeYamle9fDM-unsplash.jpg);}
+80%{background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)), url(../secret-travel-guide-328MrR1aZIk-unsplash.jpg);}
+90%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../benjamin-voros-phIFdC6lA4E-unsplash.jpg);}
+100%{background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(../niko-photos-tGTVxeOr_Rs-unsplash.jpg);}
+}
+
+ul {
+   float: right;
+   list-style-type: none;
+   margin-top: 25px;
+   margin-right: 100px;
+   color: #fff; 
+}   
+
+ul li{
+     display:inline-block;
+}
+  
+ul li a{
+       text-decoration: none;
+       colour:#fff;
+       padding: 5px 20px;
+       border: 3px solid #fff ;
+       transition:0.6s ease;
+}
+
+.title h1{
+       color: #fff;
+       text-shadow:2px 2px 5px #000000;
+       font-size: 35px;
+       margin-top: 8px;
+       
+}
+
+ul li a:hover{
+     background-color:#fff;
+     color:#000;
+}
+
+.active a{
+       background-color: #fff;
+       color: #000;
+}
+
+
+.title h2{
+     color:#fff;
+     text-shadow:2px 2px 5px #000000;
+     position:centre;
+     font-size: 35px;
+     margin-top: 250px;
+     margin-left: 420px;
+    
+}
+
+
+.title {
+     position:absolute;
+      top:1%;
+      left: 3%;
+}
+
+
+.btn{
+    border: 3px solid #fff;
+    padding: 10px 25px;
+    color:#fff;
+    text-decoration;
+    transition: 0.6s ease;
+    position:centre;
+    margin-top: 20px;
+    2margin-left:600px;
+    m6argin right: 6px;
+}
+.btn:hover{
+      
+       background-color:#fff;
+     color:#000;
+}
+h3{
+   position:centre;
+   text-shadow:2px 2px 5px #000000;
+   font-size:25px;
+   color:#fff;
+   margin-top: 5px;
+     margin-left: 570px;
+}
+h4{
+   position:centre;
+   text-shadow:2px 2px 5px #000000;
+   font size:20px;
+   color:#fff;
+   margin-top: 2px;
+     margin-left: 510px;
+}
+h5{
+   position:centre;
+   text-shadow:2px 2px 5px #000000;
+   font-size:17px;
+   color:#fff;
+   margin-top: 1px;
+     margin-left: 530px;
+}
+.img-shivam1 {
+   border-radius: 30%;
+}
+.active1 a{
+      
+       color: #fff;
+}
+.active2 a{
+       
+       color: #fff;
+}
+
+.active3 a{
+       
+       color: #fff;
+}
+
+
+
